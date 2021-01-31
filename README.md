@@ -20,3 +20,13 @@ Device communicate with CPU using PortIO.h
 
   Read is blocking for devices for CPU 50 ms is the timeout
   Implementation make device not reading itself after writing to a port
+
+Requirement:
+
+  gcc, g++, lua and lua headers
+
+Compiling:
+  `./compile.lua all`
+  
+  Result:
+    `main` file on the root directory
