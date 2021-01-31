@@ -1,6 +1,6 @@
 #!/bin/lua5.3
-local input = io.open("rom._asm")
-local output = io.open("_rom.exe", "w+")
+local input = io.open("rom.asm")
+local output = io.open("rom.exe", "w+")
 local tokens = {}
 local tmp = nil
 local processString = false
