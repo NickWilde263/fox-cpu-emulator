@@ -9,11 +9,14 @@ Argument = "Argument passed to your device"
 ```
 
 Argument is optional
+  
   Will be passed like normal C++ main function
 
 EntryPoint is required
+
   Pointing to void (int, char**) function
 
 Device communicate with CPU using PortIO.h
-Read is blocking for devices for CPU 50 ms is the timeout
-Implementation make device not reading itself after writing to a port
+
+  Read is blocking for devices for CPU 50 ms is the timeout
+  Implementation make device not reading itself after writing to a port
