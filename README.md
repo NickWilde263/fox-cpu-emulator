@@ -32,4 +32,4 @@ Compiling:
     `main` file on the root directory
 
 How to assemble:
-  `./assembler.lua` will assemble rom.asm and output `_rom.exe` that will be run by the CPU emulator
+  `./assembler.lua` will assemble rom.asm and output `rom.exe` that will be run by the CPU emulator
