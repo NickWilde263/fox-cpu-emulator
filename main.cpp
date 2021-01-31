@@ -805,7 +805,7 @@ int main() {
   
   int status;
   int abc;
-  File rom = File("_rom.exe", &status);
+  File rom = File("rom.exe", &status);
   size_t fsize = rom.getFilesize();
   segments[segment_CS] = ROMSegment;
   uint16_t j = 0;
