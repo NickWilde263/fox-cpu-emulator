@@ -777,8 +777,8 @@ constexpr void sleep(int64_t nsec) {
 /*
 Memory allocation (based on IBM PC (0xF00000 + <physical address in IBM PC memory allocation doc>))
 0x000000 - 0xF9FFFF = Conventional RAM 15,936k or 249x64k segment 
-0xFA0000 - 0xFBFFFF = Video RAM 128k or 2x64k segment
-0xFC0000 - 0xFFFFFF = ROM 256k or 4x64k segment
+0xFA0000 - 0xFBFFFF = Video RAM 128k or 2x64k segment //Havent utilized yet
+0xFC0000 - 0xFFFFFF = ROM 256k or 4x64k segment //rom.exe loaded here
 */
 
 struct DevArguments {
